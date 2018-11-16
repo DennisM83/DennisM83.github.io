@@ -4,7 +4,7 @@ body, html {
     color: #212121;
     font-family: 'Open Sans', sans-serif;
     background-color: #EAEAEA;
-    height: 100%;   
+    height: 100%;  
 }
 
 .image, section {
@@ -31,10 +31,6 @@ nav {
     color: #2E9CCA;
 }
 
-#navbarNav {
-    float: right;
-}
-
 .navbar-nav .nav-item .nav-link {
     color: #212121;
 }
@@ -45,8 +41,13 @@ nav {
 
 /**************** IMAGE *****************/
 
-.image {
-    background-image: url(../images/macBook.jpg);
+#image {
+    background-image: url(../images/macBook2.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 /**************** ABOUT *****************/
