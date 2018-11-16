@@ -5,6 +5,8 @@ body {
     font-family: 'Open Sans', sans-serif;    
 }
 
+/**************** NAVBAR *****************/
+
 .header {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
@@ -12,4 +14,12 @@ body {
 
 .navbar-brand {
     font-size: 60px;
+}
+
+#navbarNav {
+    float: right;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: blue;
 }
