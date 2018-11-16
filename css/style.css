@@ -2,7 +2,16 @@ body {
     margin: 0;
     padding: 0;
     color: #212121;
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EAEAEA;   
+}
+
+.secTitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+hr {
+    background-color: #2e9cca;
 }
 
 /**************** NAVBAR *****************/
@@ -21,5 +30,17 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: blue;
+    color: #212121;
 }
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #2e9cca;
+}
+
+/**************** ABOUT *****************/
+
+/*************** PORTFOLIO *************/
+
+/*************** CONTACT ****************/
+
+/*COLOR PALETTE: NERO #231F20 / LIGHT GREY #EAEAEA / BLUE #2E9CCA
