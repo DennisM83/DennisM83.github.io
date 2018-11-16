@@ -1,9 +1,14 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
     color: #212121;
     font-family: 'Open Sans', sans-serif;
-    background-color: #EAEAEA;   
+    background-color: #EAEAEA;
+    height: 100%;   
+}
+
+.image, section {
+    margin-bottom: 50px;
 }
 
 .secTitle {
@@ -16,13 +21,14 @@ hr {
 
 /**************** NAVBAR *****************/
 
-.header {
+nav {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
 }
 
 .navbar-brand {
     font-size: 60px;
+    color: #2E9CCA;
 }
 
 #navbarNav {
@@ -35,6 +41,12 @@ hr {
 
 .navbar-nav .nav-item .nav-link:hover {
     color: #2e9cca;
+}
+
+/**************** IMAGE *****************/
+
+.image {
+    background-image: url(../images/macBook.jpg);
 }
 
 /**************** ABOUT *****************/
