@@ -26,6 +26,11 @@ nav {
     font-size: 25px;
 }
 
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
 .navbar-brand {
     font-size: 60px;
     color: #2E9CCA;
@@ -42,7 +47,7 @@ nav {
 /**************** IMAGE *****************/
 
 #image {
-    background-image: url(../images/macBook2.jpg);
+    background-image: url(../images/code.jpg);
     height: 600px;
     background-attachment: fixed;
     background-position: center;
