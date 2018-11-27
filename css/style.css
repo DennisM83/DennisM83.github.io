@@ -67,10 +67,14 @@ nav {
 
 /*COLOR PALETTE: NERO #231F20 / LIGHT GREY #EAEAEA / BLUE #2E9CCA*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .navbar-nav .nav-item .nav-link {
         color: #212121;
         display: flex;
         flex-flow: column;
+    }
+
+    #image {
+        display: none;
     }
 }
