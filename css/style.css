@@ -29,12 +29,17 @@ body {
     -webkit-filter: blur(0px);
 }
 
+.top:hover .content {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
 .content {
     position: absolute;
     z-index: 1;
     text-align: center;
     left: 450px;
-    top: 250px;
+    top: 200px;
 }
 
 .content #logo {
@@ -46,9 +51,23 @@ body {
     color: #eaeaea;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 80px;
+    margin-top: 1rem;
 }
 
 .content #text {
     color: #eaeaea;
     font-weight: 600;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.grid-2 {
+    display: flex;
+    flex-flow: center;
+    flex-wrap: wrap;
 }
