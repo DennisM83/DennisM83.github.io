@@ -42,6 +42,7 @@ body {
     top: 30%;
     width: 300px;
     height: 350px;
+    transition: all 1000ms;
 
 }
 
@@ -108,8 +109,10 @@ body {
     }
 
     .content {
-        left: 10%;
-        top: 10%;
+        left: 60%;
+        top: 40%;
+        margin-top: -180px;
+        margin-left: -180px;
     }
 
     .content #logo {
@@ -129,4 +132,13 @@ body {
         font-weight: 600;
         font-size: 16px;
     }
+
+@media(min-width: 400px) {
+    .content {
+        left: 40%;
+        top: 25%;
+        margin-top: -120px;
+        margin-left: -120px;
+    }
+}
 }
