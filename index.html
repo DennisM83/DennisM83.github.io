@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<title>Dennis Wenrich || Web Developement</title>
@@ -12,21 +13,29 @@
 <body>
 	<header class="top">
 		<div class="content">
-			<img src="images/Den_logo2.png" id="logo" alt="Dennis Wenrich">
-			<div id="title">Dennis Wenrich</div>
-			<div id="text">Front-End Web Development</div>
+			<div class="container-fluid">
+				<img src="images/Den_logo2.png" id="logo" class="img-fluid" alt="Dennis Wenrich">
+				<p id="title">Dennis Wenrich</p>
+				<p id="text">Front-End Web Development</p>
+			</div>
 		</div>
 	</header>
 
 	<!--- ABOUT -->
 
 	<section id="about">
-		<div class="container grid-2">
+		<div class="container">
+			<div class="center">
+				<img src="images/IMG_2212.jpg" id="profile-pic" class="grid-3" alt="my profile picture">
+			</div>
 			<div>
 				<i class="fas fa-fingerprint fa-3x"></i>
 				<h3 class="sectionHead">About</h3>
-				<img src="images/IMG_2212.jpg" id="profile-pic" alt="my profile picture">
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, possimus?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia sint doloribus 
+					omnis autem incidunt iusto exercitationem dolorum, libero mollitia voluptatum obcaecati 
+					quaerat. Minus modi, voluptatum ut soluta in vel iusto praesentium deleniti consequatur 
+					alias amet corporis eius veritatis repellendus?
+				</p>
 			</div>
 		</div>
 	</section>
@@ -34,7 +43,7 @@
 	<!-- PORTFOLIO -->
 
 	<section id="portfolio">
-		<div class="container grid-2">
+		<div class="container">
 			<div>
 				<i class="fas fa-folder-open fa-3x"></i>
 				<h3 class="sectionHead">Portfolio</h3>
@@ -45,5 +54,9 @@
 	<footer class="center">
 		<p>Dennis Wenrich &copy; || 2018</p>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
