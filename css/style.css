@@ -1,175 +1,46 @@
 /*COLOR PALETTE: NERO #231F20 / LIGHT GREY #EAEAEA / BLUE #2E9CCA*/
 /* background photo by: Blake Connally https://unsplash.com/photos/B3l0g6HLxr8 */
 
+
 body {
-    background: #eaeaea;
     margin: 0;
-    color: #212121;
-    font-family: 'Open Sans', sans-serif;
+    padding: 0;
 }
 
-/******** INTRO **********/
-
-.top::after {
-    content:'';
+#top {
+    font-weight: 700;
     height: 100vh;
-    width: 100%;
     background-image: url(../images/darkCode.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
-    display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-    transition: all 1000ms;
+    background-size: 100% auto;
 }
 
-.top:hover::after {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-}
-
-.top:hover .content {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-}
-
-.content {
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    left: 40%;
-    top: 30%;
-    width: 300px;
-    height: 350px;
-    transition: all 1000ms;
-
-}
-
-.content #logo {
-    height: 180px;
-    width: 180px;
-}
-
-.content #title {
+h1 {
     color: #eaeaea;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 80px;
-    margin-top: 1rem;
 }
 
-.content #text {
-    color: #2e9cca;
-    font-weight: 600;
-    font-size: 20px;
+.about {
+    color: #212121;
 }
 
-/*.container {
-    max-width: 960px;
-    margin: auto;
-    overflow: hidden;
-    padding: 4rem 1rem;
-}*/
-
-#profile-pic {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-}
-
-#portfolio {
-    color: #eaeaea;
-    background-color: #212121;
-}
-
-.sectionHead {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2.5rem;
-}
-
-.container {
-    margin: auto;
-    padding: 5rem 2rem;
-    display: grid;
-    grid-gap: 20px;
-}
-
-.center {
-    text-align: center;
-    margin: auto;
-}
-
-.footer {
-    margin: 0;
-}
-
-@media screen and (max-width: 700px) {
-    .top::after {
-        height: 50vh;
+@media(max-width: 600px) {
+    #top {
+        height: 40vh;
+        background-image: url(../images/darkCode.jpg);
+        background-repeat: no-repeat;
     }
 
-    .content {
-        left: 60%;
-        top: 40%;
-        margin-top: -180px;
-        margin-left: -180px;
-    }
-
-    .content #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    .content #title {
+    h1 {
+        font-weight: 700;
         color: #eaeaea;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 25px;
-        margin-top: 1rem;
-    }
-    
-    .content #text {
-        color: #2e9cca;
-        font-weight: 600;
-        font-size: 16px;
     }
 }
 
-@media screen and (min-width: 400px){
-    .top::after {
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #top {
+        font-weight: 700;
         height: 50vh;
-    }
-
-    .content {
-        left: 40%;
-        top: 25%;
-        margin-top: -120px;
-        margin-left: -120px;
-    }
-
-    .content #logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    .content #title {
-        color: #eaeaea;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 25px;
-        margin-top: 1rem;
-    }
-    
-    .content #text {
-        color: #2e9cca;
-        font-weight: 600;
-        font-size: 16px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023) {
-    .content {
-        left: 50%;
-        top: 30%;
-        margin-top: -150px;
-        margin-left: -150px;
+        background-image: url(../images/darkCode.jpg);
+        background-repeat: no-repeat;
     }
 }
