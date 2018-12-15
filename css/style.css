@@ -9,10 +9,11 @@ body {
 
 #top {
     font-weight: 700;
-    height: 100vh;
+    padding-top: 160px;
+    padding-bottom: calc(160px - 56px);
     background-image: url(../images/darkCode.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-position: center center;
+    background-size: cover;
 }
 
 h1 {
@@ -23,24 +24,11 @@ h1 {
     color: #212121;
 }
 
-@media(max-width: 600px) {
+@media (min-width: 992px) {
     #top {
-        height: 40vh;
-        background-image: url(../images/darkCode.jpg);
-        background-repeat: no-repeat;
-    }
-
-    h1 {
-        font-weight: 700;
-        color: #eaeaea;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    #top {
-        font-weight: 700;
-        height: 50vh;
-        background-image: url(../images/darkCode.jpg);
-        background-repeat: no-repeat;
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 }
