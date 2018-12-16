@@ -48,8 +48,8 @@ h1 {
       padding-bottom: 0;
     }
 
-    img {
-    position: relative;
-    top: 200px;
+    #topLogo {
+        position: relative;
+        top: 200px;
     }
 }
