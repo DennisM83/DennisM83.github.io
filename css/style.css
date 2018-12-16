@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     padding-top: 160px;
     padding-bottom: calc(160px - 56px);
-    background-image: url(../images/darkCode.jpg);
+    background-image: url(../images/darkBlur.png);
     background-position: center center;
     background-size: cover;
     color: #EAEAEA;
@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topDescript {
     font-size: 32px;
+    color: #2E9CCA;
 }
 
 img {
@@ -52,6 +53,10 @@ img {
    .topName {
         display: none;
     }
+
+    #topDescript {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -64,6 +69,6 @@ img {
 
     #topLogo {
         position: relative;
-        top: 180px;
+        top: 140px;
     }
 }
