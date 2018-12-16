@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#top {
+#intro {
     font-weight: 700;
     padding-top: 160px;
     padding-bottom: calc(160px - 56px);
@@ -22,11 +22,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #EAEAEA;
 }
 
-.topName {
+.introName {
     font-size: 90px;
 }
 
-#topDescript {
+#introTitle {
     font-size: 32px;
     color: #2E9CCA;
 }
@@ -34,10 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 img {
     width: 250px;
     height: 250px;
-}
-
-#topLogo {
-    background: transparent;
 }
 
 .about {
@@ -50,25 +46,32 @@ img {
        width: 80px;
    }
 
-   .topName {
+   .introName {
         display: none;
     }
 
-    #topDescript {
+    #introTitle {
         font-size: 20px;
     }
 }
 
 @media (min-width: 992px) {
-    #top {
+    #intro {
       height: 100vh;
       min-height: 650px;
       padding-top: 0;
       padding-bottom: 0;
     }
 
-    #topLogo {
+    #introText {
         position: relative;
-        top: 140px;
+        top: 180px;
+        transition: all 1000ms;
+    }
+
+    #introTitle:hover, .introName:hover {
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        transition: all 1000ms;
     }
 }
