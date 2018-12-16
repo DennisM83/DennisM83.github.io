@@ -16,12 +16,28 @@ body {
     background-size: cover;
 }
 
+img {
+    width: 250px;
+    height: 250px;
+}
+
 h1 {
     color: #eaeaea;
 }
 
+#topLogo {
+    background: transparent;
+}
+
 .about {
     color: #212121;
+}
+
+@media (max-width: 991px) {
+   img {
+       height: 80px;
+       width: 80px;
+   }
 }
 
 @media (min-width: 992px) {
@@ -30,5 +46,10 @@ h1 {
       min-height: 650px;
       padding-top: 0;
       padding-bottom: 0;
+    }
+
+    img {
+    position: relative;
+    top: 200px;
     }
 }
