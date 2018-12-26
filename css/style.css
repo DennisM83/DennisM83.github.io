@@ -1,9 +1,16 @@
+/*COLOR PALETTE: NERO #231F20 / LIGHT GREY #EAEAEA / BLUE #2E9CCA*/
+
 body {
     background-color: #EAEAEA;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
   }
 
   hr {
-    color: grey;
+    color: #2E9CCA;
     border-style: dotted none none;
     border-top-width: 5px;
     width: 5%;
