@@ -3,10 +3,12 @@
 body {
     background-color: #EAEAEA;
     font-family: 'Open Sans', sans-serif;
+    display: block;
   }
 
   h1,h2,h3,h4,h5,h6 {
     font-family: 'Open Sans Condensed', sans-serif;
+    color: #66bfbf;
   }
 
   hr {
