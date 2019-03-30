@@ -81,6 +81,12 @@ a {
     margin: 100px auto 100px auto;
 }
 
+.skill_pic {
+    width: 250px;
+    height: 250px;
+    padding: 10px 0 10px 0;
+    border-radius: 100%;
+}
 /************ PORTFOLIO ****************/
 
 .projects {
@@ -88,11 +94,8 @@ a {
     padding: 3% 2%;
 }
 
-.skill_pic {
-    width: 250px;
-    height: 250px;
-    padding: 10px 0 10px 0;
-    border-radius: 100%;
+.card-body {
+    background-color: #EAEAEA;
 }
 
 /************ CONTACT ***************/
