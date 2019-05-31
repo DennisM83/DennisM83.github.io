@@ -81,6 +81,15 @@ a {
     margin: 100px auto 100px auto;
 }
 
+<<<<<<< HEAD
+=======
+.skill_pic {
+    width: 250px;
+    height: 250px;
+    padding: 10px 0 10px 0;
+    border-radius: 100%;
+}
+>>>>>>> 565b804bdef5630249143b9a3313671730f6306c
 /************ PORTFOLIO ****************/
 
 .projects {
@@ -88,11 +97,16 @@ a {
     padding: 3% 2%;
 }
 
+<<<<<<< HEAD
 .skill_pic {
     width: 250px;
     height: 250px;
     padding: 10px 0 10px 0;
     border-radius: 100%;
+=======
+.card-body {
+    background-color: #EAEAEA;
+>>>>>>> 565b804bdef5630249143b9a3313671730f6306c
 }
 
 /************ CONTACT ***************/
@@ -131,4 +145,8 @@ a {
 .copyright {
     background-color: #212121;
     color: #EAEAEA;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 565b804bdef5630249143b9a3313671730f6306c
