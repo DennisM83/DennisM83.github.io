@@ -74,6 +74,13 @@ a {
     border-radius: 100%;
 }
 
+/************* NOTES ***************/
+
+.notes-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
 /************ SKILLS ****************/
 
 .skill-row {
