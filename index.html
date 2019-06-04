@@ -17,9 +17,11 @@
 
 <body>
     <div class="top-container">
-        <img src="images/Den_logo3.png" class="logo" alt="my logo">
-        <h1 class="name">DENNIS WENRICH</h1>
-        <h2 class="title">FRONT-END WEB DEVELOPER</h2>
+        <div class="container">
+            <img src="images/Den_logo3.png" class="logo" alt="my logo">
+            <h1 class="name">DENNIS WENRICH</h1>
+            <h2 class="title">FRONT-END WEB DEVELOPER</h2>
+        </div>
     </div>
     <div class="middle-container">
         <div class="profile">
@@ -30,78 +32,113 @@
         </div>
         <hr>
         <div class="skills">
-            <h2>My Skills.</h2>
+            <h2>My Skills</h2>
             <div class="skill-row">
                 <!--Photo by Denise Jans on Unsplash https://unsplash.com/photos/p0QUpDUX8X8-->
-                <img class="skill_pic" src="images/skill.jpg" alt="computer and desk picture">
+                <img src="images/skill.jpg" class="skill_pic" alt="computer and desk picture">
                 <h3>Front-End Web Developement</h3>
                 <p>Completed the <a href="https://confirm.udacity.com/WSSMDXQN" target="_blank">Front-End Nanodegree</a> program from Udacity in October, 2018.</p>
             </div>
         </div>
         <hr>
-<<<<<<< HEAD
-        <div class="notes">
-                <h2>CompTIA A+ Notes</h2>
-                <div class="notes-row">
-                    
-                    <img class="skill_pic" src="images/cpu.jpg" alt="picture of a cpu">
-                    <h3>PCIe Expansion Slots and Cards - MAY 30th, 2019</h3>
-                    <p>The Expansion Slots are used to expand the capabilities of the motherboard. When installing a card, 
-                        it's usually best 
-                        practice to check the documentation and install the drivers involved to run the device.
-                        With some of the drivers, they could require you to install them either before or after you have installed the physical card.
-                        They usually there to add something like a video card, network, sound, or disk interface cards. 
-                        They're typically a half inch in width and can range between one to six inches in length. 
+        <div class="skills">
+            <h2>CompTIA A+ Notes</h2>
+            <div class="skill-row">
+                <!--  Photo by Christian Wiediger on Unsplash -->
+                <img src="images/cpu.jpg" class="skill_pic" alt="computer and desk picture">
+                <h3>May 30th, 2019</h3>
+                <p>
+                    The Expansion Slots are used to expand the capabilities of the motherboard. When installing a card, it's usually best 
+                    practice to check the documentation and install the drivers involved to run the device.
+                    With some of the drivers, they could require you to install them either before or after you have installed the physical card.
+                    They usually there to add something like a video card, network, sound, or disk interface cards. 
+                    They're typically a half inch in width and can range between one to six inches in length. 
+                </p>
+                <div class="accordion">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#article">
+                        Read More
+                    </button>
+                </div>
+                <div id="article" class="collapse">
+                    <p>
                         There are two types of Expansion Slots, those consist of a PCI Expansion Slot and PCIe Expansion Slot. 
                         The PCI Expansion Slot is now considered a legacy component. The acronym PCI stands for 
-                        Peripheral Component Interconnect, but that usually not used, the shorthand is usually the common pronunciation. 
-                        The PCI slots can be recognized by their classic white color and they're usually about three-inches in length. 
-                        In more modern computers, they could vary in color. These cards were either operating at bus speeds of 33 MHz or 66 MHz 
-                        over a 32-bit (4-byte) channel. So to find the data rates, you would calculate 33,000,000 Hz * 32 bit = 1,056,000,000 bits / s. 
-                        Then, you would divide this number by 8 (because of bytes / second). So, 1,056,000,000 / 8 = 132,000,000 MBps 
-                        or 133 MBps. There's a little overhead to account for, but this calculation is a close approximation. Also, PCI 
-                        ports are a shared bus. Meaning, if a bus is running at a speed of 66MHz, while a card on the bus is running at 
-                        33MHz, the combine bus would run at the 33MHz (lower speed), causing the 66MHz bus to run at half the potential. 
-                        The cards were made in 3.3 v or 5v 
-                        versions. However, there are adapters that exist that are made as a universal adapters that could handle either / 
-                        or. Those cards usually had notches in both positions according to the key positions on the slot. 3.3v keys were 
-                        common to see more toward the front of the motherboard in position and 5v is located more toward the rear. PCI in 
-                        its hayday could connect just about any peripherals with the exception of the graphics card. As graphics cards 
-                        accelerated in technology, so did games, and so did the processing of those graphics. This is why Intel decided 
-                        to make its own port, the Accelerated Graphics Port or AGP. The PCI bus couldn't keep up with the information of 
-                        both the CPU and graphics card. The two technologies were replaced by PCIe.
-                        Most of your modern mobo's are going to feature the PCIe or (PCI Express). Its is possible to find a motherboard 
-                        with both PCI and PCIe slots for backward compatibility, but not APG. The PCIe kept the all the flexibility of 
-                        PCI but is faster than the AGP. PCIe also moved to a point-to-point switching connection. This type of connection 
-                        allows the devices, or nodes, to directly talk to one another on a connection. This also prevents other devices to 
-                        make a connection and keeps each device from slowing each other down. This is a contrast from the older bus 
-                        architecture you find in older PCI connections, which used a shared bandwidth among all the slots. PCIe uses 
-                        more of a star topology, thus more of a serial connection as apposed to a parallel connection. Since there is a 
-                        point-to-point communication between these devices, PCIe uses what is known as lanes. Lanes are the wires that 
-                        basically send or receive the data to and from the device. The combination of these wires is what is known as a 
-                        link. Usually on a motherboard you'll find a x1, x4, or / and x16 (the "x" is pronounced "by"). These are the 
-                        common PCIe slots that support their associated link width. There are actually seven PCIe slots with various link 
-                        widths. In addition to the common ones, there are x2, x8, x12, x32. You would rarely run across these PCIe link 
-                        widths, with the exception of the x8, which could be a little more common than the others. Every PCIe slot is 
-                        equipped with a 22-pin section that is used for grounding and voltage. However, aside from that, you'll find that 
-                        the PCIe slots are relative to physical size due to the fact they accommodate for the lanes needed for the link
+                        Peripheral Component Interconnect, but that usually not used, the shorthand is usually the common pronunciation.
                     </p>
                     <p>
-                        PCIe extensions are popular among gamers, such as NVIDIA's SLI (Scalable Link Interface). 
-                        This card actually allows the user to combine multiple, identical graphics cards through an adapter / bridge, 
-                        allowing for communication exclusively with one another. The motherboard needs support with for this type of set-up, 
-                        but one card acts as a master and pools together the combine graphics to feed to the monitor. 
-                        Its important that these cards are stable, otherwise there is a result in poor performance or failure.
+                        The PCI slots can be recognized by their classic white color and they're usually about three-inches in length. 
+                        In more modern computers, they could vary in color. These cards were either operating at bus speeds of 33 MHz 
+                        or 66 MHz 
+                        over a 32-bit (4-byte) channel. So to find the data rates, you would calculate 33,000,000 Hz * 32 bit = 
+                        1,056,000,000 bits / s. 
+                        Then, you would divide this number by 8 (because of bytes / second). So, 1,056,000,000 / 8 = 132,000,000 
+                        MBps or 133 MBps. There's a little overhead to account for, but this calculation is a close approximation. 
+                        Also, PCI ports are a shared bus. Meaning, if a bus is running at a speed of 66MHz, while a card on the bus
+                        is running at 33MHz, the combine bus would run at the 33MHz (lower speed), causing the 66MHz bus to run at 
+                        half the potential. The cards were made in 3.3 v or 5v 
+                        versions. However, there are adapters that exist that are made as a universal adapters that could handle 
+                        either / or. Those cards usually had notches in both positions according to the key positions on the slot. 
+                        3.3v keys were common to see more toward the front of the motherboard in position and 5v is located more 
+                        toward the rear. PCI in its hayday could connect just about any peripherals with the exception of the 
+                        graphics card. As graphics cards accelerated in technology, so did games, and so did the processing of 
+                        those graphics. This is why Intel decided to make its own port, the Accelerated Graphics Port or AGP. 
+                        The PCI bus couldn't keep up with the information of both the CPU and graphics card. The two technologies 
+                        were replaced by PCIe.
+                    </p>
+                    <p>
+                        Most of your modern mobo's are going to feature the PCIe or (PCI Express). Its is possible to find a 
+                        motherboard with 
+                        both PCI and PCIe slots for backward compatibility, but not APG. The PCIe kept the all the flexibility 
+                        of PCI but is 
+                        faster than the AGP. PCIe also moved to a point-to-point switching connection. This type of connection 
+                        allows the devices, 
+                        or nodes, to directly talk to one another on a connection. This also prevents other devices to make a 
+                        connection and 
+                        keeps each device from slowing each other down. This is a contrast from the older bus architecture you 
+                        find in older 
+                        PCI connections, which used a shared bandwidth among all the slots. PCIe uses more of a star topology, 
+                        thus more of a 
+                        serial connection as apposed to a parallel connection. Since there is a point-to-point communication 
+                        between these devices, 
+                        PCIe uses what is known as lanes. Lanes are the wires that basically send or receive the data to and 
+                        from the device. 
+                        The combination of these wires is what is known as a link. Usually on a motherboard you'll find a 
+                        x1, x4, or / and x16 
+                        (the "x" is pronounced "by"). These are the common PCIe slots that support their associated link width. 
+                        There are actually 
+                        seven PCIe slots with various link widths. In addition to the common ones, there are x2, x8, x12, x32. 
+                        You would rarely 
+                        run across these PCIe link widths, with the exception of the x8, which could be a little more common 
+                        than the others. 
+                        Every PCIe slot is equipped with a 22-pin section that is used for grounding and voltage. However, 
+                        aside from that, 
+                        you'll find that the PCIe slots are relative to physical size due to the fact they accommodate for 
+                        the lanes needed 
+                        for the link. Transfer Rates are set on the PCIe slots, but take a loss to due to the 8b/10b encoding. 
+                        Which means it 
+                        takes 10 bits to transfer 8. When you move up to PCIe 3.0, the encoding is switched to a 128b/130b, 
+                        which is a little 
+                        less overhead than the traditional encoding scheme. 
+                        This is also why version 3.0 is not exactly double the speed of version 2.0, but close enough.
+                    </p>
+                    <p>
+                            PCIe extensions are popular among gamers, such as NVIDIA's SLI (Scalable Link Interface). 
+                            This card actually allows the user to combine multiple, identical graphics cards through an 
+                            adapter / bridge, allowing for communication exclusively with one another. The motherboard needs 
+                            support with for this type of set-up, but one card acts as a master and pools together the 
+                            combine graphics to feed to the monitor. Its important that these cards are stable, 
+                            otherwise there is a result in poor performance or failure.
                     </p>
                 </div>
             </div>
-=======
->>>>>>> 565b804bdef5630249143b9a3313671730f6306c
+        </div>
+        <hr>
+
         <div class="skills">
-            <h2>My Work.</h2>
+            <h2>My Work</h2>
             <div class="skill-row">
                 <!--Photo by Denise Jans on Unsplash https://unsplash.com/photos/p0QUpDUX8X8-->
-                <img class="skill_pic" src="images/code.jpg" alt="picture of computer code">
+                <img src="images/code.jpg" class="skill_pic"  alt="picture of computer code">
                 <div class="row">
                     <div class="projects col-lg-6 col-md-6">
                         <div class="card">
