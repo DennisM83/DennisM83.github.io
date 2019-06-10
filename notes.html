@@ -23,145 +23,230 @@
         <div class="skill-row">
             <!--  Photo by Christian Wiediger on Unsplash -->
             <img src="images/cpu.jpg" class="skill_pic" alt="computer and desk picture">
-            <h3>Expansion Slots</h3>
+            <h3>Random Access Memory (RAM)</h3>
             <p>
-                The Expansion Slots are used to expand the capabilities of the motherboard. When installing a card,
-                it's usually best
-                practice to check the documentation and install the drivers involved to run the device.
-                With some of the drivers, they could require you to install them either before or after you have
-                installed the physical card.
-                They usually there to add something like a video card, network, sound, or disk interface cards.
-                They're typically a half inch in width and can range between one to six inches in length.
+                Random Access Memory (RAM) are modules used to store the most recent information and preparation for the
+                CPU. This is also the primary memory. This is pretty much the workbench for the data when your CPU is
+                working on it, storing it back onto the hard drive.
             </p>
             <div class="accordion">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#article">
-                    Read More
+                    Expand
                 </button>
             </div>
             <div id="article" class="collapse">
                 <p>
-                    There are two types of Expansion Slots, those consist of a PCI Expansion Slot and PCIe Expansion
-                    Slot.
-                    The PCI Expansion Slot is now considered a legacy component. The acronym PCI stands for
-                    Peripheral Component Interconnect, but that usually not used, the shorthand is usually the
-                    common pronunciation.
+                    Since data is constantly being updated, the speed in which your computer runs is, in part, dictated
+                    by the speed of the memory. The speed of the memory is also decided by the motherboard.
                 </p>
                 <p>
-                    The PCI slots can be recognized by their classic white color and they're usually about
-                    three-inches in length.
-                    In more modern computers, they could vary in color. These cards were either operating at bus
-                    speeds of 33 MHz
-                    or 66 MHz
-                    over a 32-bit (4-byte) channel. So to find the data rates, you would calculate 33,000,000 Hz *
-                    32 bit =
-                    1,056,000,000 bits / s.
-                    Then, you would divide this number by 8 (because of bytes / second). So, 1,056,000,000 / 8 =
-                    132,000,000
-                    MBps or 133 MBps. There's a little overhead to account for, but this calculation is a close
-                    approximation.
-                    Also, PCI ports are a shared bus. Meaning, if a bus is running at a speed of 66MHz, while a card
-                    on the bus
-                    is running at 33MHz, the combine bus would run at the 33MHz (lower speed), causing the 66MHz bus
-                    to run at
-                    half the potential. The cards were made in 3.3 v or 5v
-                    versions. However, there are adapters that exist that are made as a universal adapters that
-                    could handle
-                    either / or. Those cards usually had notches in both positions according to the key positions on
-                    the slot.
-                    3.3v keys were common to see more toward the front of the motherboard in position and 5v is
-                    located more
-                    toward the rear. PCI in its hayday could connect just about any peripherals with the exception
-                    of the
-                    graphics card. As graphics cards accelerated in technology, so did games, and so did the
-                    processing of
-                    those graphics. This is why Intel decided to make its own port, the Accelerated Graphics Port or
-                    AGP.
-                    The PCI bus couldn't keep up with the information of both the CPU and graphics card. The two
-                    technologies
-                    were replaced by PCIe.
+                    DIMMs or Dual in-line memory modules are what you would find on a typical modern motherboard. These
+                    are little circuit boards placed with signal pins / contacts on each side (hence the dual part) and
+                    can transfer 64 bits at a time. This dual feature allows for quicker data transfer that their
+                    predecessor, SIMMs. There are different numbers of pins a DIMM could have, such as 168-, 184-, 240-,
+                    or 288-. These configurations are pretty common ones used today. Although, with DIMMs, they're
+                    mainly used in a desktop setting. For a laptop, you would find SODIMMs (small outline DIMMs). These
+                    are physically smaller which means they are going to have less pins. Both DIMMs and SODIMMs offer
+                    different versions going from DDR SDRAM (double data rate SDRAM) up to DDR5 SDRAM (double data rate,
+                    version 5, SDRAM).
+                    Dynamic Random Access Memory or DRAM is the type you find on DIMMS. The Dynamic part of is in
+                    reference to the fact these memory chips need to be constantly updated. Otherwise, the information
+                    will be deleted. The reason that these chips are used in modern computers, is due to the fact they
+                    are a little more simple and cheaper to manufacture. The Random Access part is due to the fact that
+                    any data can be precisely. Unlike earlier versions, which information was stored on tape and had to
+                    be re-wound to the exact location.
                 </p>
                 <p>
-                    Most of your modern mobo's are going to feature the PCIe or (PCI Express). Its is possible to
-                    find a
-                    motherboard with
-                    both PCI and PCIe slots for backward compatibility, but not APG. The PCIe kept the all the
-                    flexibility
-                    of PCI but is
-                    faster than the AGP. PCIe also moved to a point-to-point switching connection. This type of
-                    connection
-                    allows the devices,
-                    or nodes, to directly talk to one another on a connection. This also prevents other devices to
-                    make a
-                    connection and
-                    keeps each device from slowing each other down. This is a contrast from the older bus
-                    architecture you
-                    find in older
-                    PCI connections, which used a shared bandwidth among all the slots. PCIe uses more of a star
-                    topology,
-                    thus more of a
-                    serial connection as apposed to a parallel connection. Since there is a point-to-point
-                    communication
-                    between these devices,
-                    PCIe uses what is known as lanes. Lanes are the wires that basically send or receive the data to
-                    and
-                    from the device.
-                    The combination of these wires is what is known as a link. Usually on a motherboard you'll find
-                    a
-                    x1, x4, or / and x16
-                    (the "x" is pronounced "by"). These are the common PCIe slots that support their associated link
-                    width.
-                    There are actually
-                    seven PCIe slots with various link widths. In addition to the common ones, there are x2, x8,
-                    x12, x32.
-                    You would rarely
-                    run across these PCIe link widths, with the exception of the x8, which could be a little more
-                    common
-                    than the others.
-                    Every PCIe slot is equipped with a 22-pin section that is used for grounding and voltage.
-                    However,
-                    aside from that,
-                    you'll find that the PCIe slots are relative to physical size due to the fact they accommodate
-                    for
-                    the lanes needed
-                    for the link. Transfer Rates are set on the PCIe slots, but take a loss to due to the 8b/10b
-                    encoding.
-                    Which means it
-                    takes 10 bits to transfer 8. When you move up to PCIe 3.0, the encoding is switched to a
-                    128b/130b,
-                    which is a little
-                    less overhead than the traditional encoding scheme.
-                    This is also why version 3.0 is not exactly double the speed of version 2.0, but close enough.
+                    Synchronous DRAM is the type of DRAM on modern computers. The Synchronous part has to do with the
+                    fact that its synched with the common clock cycle or Front-side bus speed. This prevents the CPU
+                    from waiting on the memory to sync up. Older memory types relied on Asynchronous DRAM, which was
+                    autonomous from the clock cycle. This type also required you to setup wait times through the BIOS to
+                    access the information requested by the CPU. This resulted in slower performance.The way the SDRAM
+                    uses the clock cycles to pull information is through a Double Date Rate or DDR. In older versions,
+                    you would have only a SDR, which would just pull on single bit of data per clock cycle. With the
+                    advancement of DDR, we're able to pull data on the upside and downside of the clock cycle, hence the
+                    Double Data Rate. This also prevents added heat by maintaining the same clock cycle and increasing
+                    the rate instead. With DDR, you also have different versions that have increased the amount of data
+                    that could be transferred, as well as, becoming more power efficient. Each version is not forward or
+                    backward compatible and the memory modules are also dependent on the FSB clock cycle of the
+                    motherboard. There is a simple math equation, taking the FSB speed and multiplying that by 8 (bytes)
+                    is a close, but not exact, frequency of the modules and those numbers are close to a marketing
+                    standpoint when deciding which modules are needed for the motherboard. With each version, you're
+                    essentially doubling the from the previous version. Although this these numbers are not exact, for
+                    example, DDR2 doubles the rate of transfer, giving you two transfers on the upside and downside of
+                    the cycle.
                 </p>
                 <p>
-                    PCIe extensions are popular among gamers, such as NVIDIA's SLI (Scalable Link Interface).
-                    This card actually allows the user to combine multiple, identical graphics cards through an
-                    adapter / bridge, allowing for communication exclusively with one another. The motherboard needs
-                    support with for this type of set-up, but one card acts as a master and pools together the
-                    combine graphics to feed to the monitor. Its important that these cards are stable,
-                    otherwise there is a result in poor performance or failure.
+                    Since modern controller systems can operate by sending 64-bits over the data bus, there may be a
+                    bottleneck situation that occurs when a CPU and Memory can operated fast than that. The motherboard
+                    is then designed for single-, dual-, and triple-channel memory to alleviate this setback by using
+                    multiple channels. However, when using a triple-channel connection, each channel is reduced but
+                    still adding to a quicker performance than a dual channel. Some manufactures will added color coding
+                    to the channels to indicate which channel is required to be filled by a pair or trio of modules.
+                    These modules must the exact same pair, otherwise you run the risk of performance issues and / or
+                    failures. Consulting the manufacturer's mobo documentation, you can then figure out the maximum
+                    amount of memory you would need. Also, some memory comes with error checking and correction. In
+                    order for the memory to check for an error it uses what is called parity. Parity is by adding an
+                    additional bit of data (usually nothing that adds to the actual data) and checks against the data if
+                    see if its even or odd. Depending on which type of error checking is permitted (even or odd numbers
+                    of data), the outcoming is expected, otherwise an error is thrown. Also, say if the parity checking
+                    is expecting an even number and there are multiple errors, as long as it returns an expected
+                    outcome, no error is detected. This is a very base line way of checking as it adds no information on
+                    what the error is or how to corrected the error. This is where ECC comes in. ECC can detect two
+                    errors that exist within a byte and is able to actually offer corrections for one. This is done by
+                    adding a attaching a bit to the stored data. When the data is access, an algorithm is then performed
+                    and if a 0 is returned, otherwise it throws an error.
                 </p>
+                <p>
+                    Aside from DRAM, there is Static Random Access Memory (SRAM) which is generally used for cache
+                    memory. This type of memory also doesn’t have to be refreshed like DRAM, and offers quicker access
+                    times such as 10 nanoseconds as opposed to the 40 ns offered by DRAM. This type of memory is more
+                    expensive, which is why it isn't used on a larger scale.
+                    ROM or Read-Only Memory is also a form of memory, usually attached to the motherboard for the BIOS
+                    and POST. In the early years, this type of memory, once written, couldn't be altered. It's had some
+                    upgrades throughout the years, offering many ways of being re-written. Most modern mobos use flash
+                    memory, which is a type of PROM (Programmable ROM).
+                </p>
+                <hr>
+                <h3>Expansion Slots</h3>
+                <p>
+                    The Expansion Slots are used to expand the capabilities of the motherboard. When installing a card,
+                    it's usually best
+                    practice to check the documentation and install the drivers involved to run the device.
+                    With some of the drivers, they could require you to install them either before or after you have
+                    installed the physical card.
+                    They usually there to add something like a video card, network, sound, or disk interface cards.
+                    They're typically a half inch in width and can range between one to six inches in length.
+                </p>
+                <div class="accordion">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#article">
+                        Expand
+                    </button>
+                </div>
+                <div id="article" class="collapse">
+                    <p>
+                        There are two types of Expansion Slots, those consist of a PCI Expansion Slot and PCIe Expansion
+                        Slot.
+                        The PCI Expansion Slot is now considered a legacy component. The acronym PCI stands for
+                        Peripheral Component Interconnect, but that usually not used, the shorthand is usually the
+                        common pronunciation.
+                    </p>
+                    <p>
+                        The PCI slots can be recognized by their classic white color and they're usually about
+                        three-inches in length.
+                        In more modern computers, they could vary in color. These cards were either operating at bus
+                        speeds of 33 MHz
+                        or 66 MHz
+                        over a 32-bit (4-byte) channel. So to find the data rates, you would calculate 33,000,000 Hz *
+                        32 bit =
+                        1,056,000,000 bits / s.
+                        Then, you would divide this number by 8 (because of bytes / second). So, 1,056,000,000 / 8 =
+                        132,000,000
+                        MBps or 133 MBps. There's a little overhead to account for, but this calculation is a close
+                        approximation.
+                        Also, PCI ports are a shared bus. Meaning, if a bus is running at a speed of 66MHz, while a card
+                        on the bus
+                        is running at 33MHz, the combine bus would run at the 33MHz (lower speed), causing the 66MHz bus
+                        to run at
+                        half the potential. The cards were made in 3.3 v or 5v
+                        versions. However, there are adapters that exist that are made as a universal adapters that
+                        could handle
+                        either / or. Those cards usually had notches in both positions according to the key positions on
+                        the slot.
+                        3.3v keys were common to see more toward the front of the motherboard in position and 5v is
+                        located more
+                        toward the rear. PCI in its hayday could connect just about any peripherals with the exception
+                        of the
+                        graphics card. As graphics cards accelerated in technology, so did games, and so did the
+                        processing of
+                        those graphics. This is why Intel decided to make its own port, the Accelerated Graphics Port or
+                        AGP.
+                        The PCI bus couldn't keep up with the information of both the CPU and graphics card. The two
+                        technologies
+                        were replaced by PCIe.
+                    </p>
+                    <p>
+                        Most of your modern mobo's are going to feature the PCIe or (PCI Express). Its is possible to
+                        find a
+                        motherboard with
+                        both PCI and PCIe slots for backward compatibility, but not APG. The PCIe kept the all the
+                        flexibility
+                        of PCI but is
+                        faster than the AGP. PCIe also moved to a point-to-point switching connection. This type of
+                        connection
+                        allows the devices,
+                        or nodes, to directly talk to one another on a connection. This also prevents other devices to
+                        make a
+                        connection and
+                        keeps each device from slowing each other down. This is a contrast from the older bus
+                        architecture you
+                        find in older
+                        PCI connections, which used a shared bandwidth among all the slots. PCIe uses more of a star
+                        topology,
+                        thus more of a
+                        serial connection as apposed to a parallel connection. Since there is a point-to-point
+                        communication
+                        between these devices,
+                        PCIe uses what is known as lanes. Lanes are the wires that basically send or receive the data to
+                        and
+                        from the device.
+                        The combination of these wires is what is known as a link. Usually on a motherboard you'll find
+                        a
+                        x1, x4, or / and x16
+                        (the "x" is pronounced "by"). These are the common PCIe slots that support their associated link
+                        width.
+                        There are actually
+                        seven PCIe slots with various link widths. In addition to the common ones, there are x2, x8,
+                        x12, x32.
+                        You would rarely
+                        run across these PCIe link widths, with the exception of the x8, which could be a little more
+                        common
+                        than the others.
+                        Every PCIe slot is equipped with a 22-pin section that is used for grounding and voltage.
+                        However,
+                        aside from that,
+                        you'll find that the PCIe slots are relative to physical size due to the fact they accommodate
+                        for
+                        the lanes needed
+                        for the link. Transfer Rates are set on the PCIe slots, but take a loss to due to the 8b/10b
+                        encoding.
+                        Which means it
+                        takes 10 bits to transfer 8. When you move up to PCIe 3.0, the encoding is switched to a
+                        128b/130b,
+                        which is a little
+                        less overhead than the traditional encoding scheme.
+                        This is also why version 3.0 is not exactly double the speed of version 2.0, but close enough.
+                    </p>
+                    <p>
+                        PCIe extensions are popular among gamers, such as NVIDIA's SLI (Scalable Link Interface).
+                        This card actually allows the user to combine multiple, identical graphics cards through an
+                        adapter / bridge, allowing for communication exclusively with one another. The motherboard needs
+                        support with for this type of set-up, but one card acts as a master and pools together the
+                        combine graphics to feed to the monitor. Its important that these cards are stable,
+                        otherwise there is a result in poor performance or failure.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <hr>
-    <div class="bottom-container">
-        <a class="footer-link" href="https://github.com/DennisM83" target="_blank"><i
-                class="fab fa-github iconColor fa-3x"></i></a>
-        <a class="footer-link" href="https://www.facebook.com/dennis.wenrich.547" target="_blank"><i
-                class="fab fa-facebook-square iconColor fa-3x"></i></a>
-        <a class="footer-link" href="https://www.instagram.com/dennis_wenrich/" target="_blank"><i
-                class="fab fa-instagram iconColor fa-3x"></i></a>
-        <p class="copyright">© 2018 Dennis Wenrich.</p>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        <hr>
+        <div class="bottom-container">
+            <a class="footer-link" href="https://github.com/DennisM83" target="_blank"><i
+                    class="fab fa-github iconColor fa-3x"></i></a>
+            <a class="footer-link" href="https://www.facebook.com/dennis.wenrich.547" target="_blank"><i
+                    class="fab fa-facebook-square iconColor fa-3x"></i></a>
+            <a class="footer-link" href="https://www.instagram.com/dennis_wenrich/" target="_blank"><i
+                    class="fab fa-instagram iconColor fa-3x"></i></a>
+            <p class="copyright">© 2018 Dennis Wenrich.</p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
