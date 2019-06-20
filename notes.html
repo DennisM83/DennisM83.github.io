@@ -23,6 +23,84 @@
         <div class="skill-row">
             <!--  Photo by Christian Wiediger on Unsplash -->
             <img src="images/cpu.jpg" class="skill_pic" alt="computer and desk picture">
+            <h3>Central Processing Unit (CPU)</h3>
+            <p>
+                CPUs or Central Processing Units are kind of like a very efficient calculator, some also refer to
+                them as the "brain" of the computer. All processes done within the computer come through the
+                processor. Topped with either a heat sink and / or fan, this component is the easiest to identify on
+                the motherboard. These fans and heat sinks provide a valuable service to the CPU by dissipating the
+                heat away. Modern CPUs create so much heat that the could cause irreparable damage not only to
+                themselves, but the motherboard as well. Also, to help with this cooling, thermal paste is usually
+                applied to the heat sinks. This ensures an even contact with the CPU due to microscopic divots in
+                the actual metal, causing air pockets between the heat sinks and CPU. The surrounding air then cause
+                uneven heat distribution, thus not dissipating as efficiently.
+            </p>
+            <div class="accordion">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#articleRAM">
+                    Expand
+                </button>
+            </div>
+            <div id="articleRAM" class="collapse">
+                <p>
+                    You can have several types of sockets as well as processors, but they're usually consist of either
+                    holes or pins laid out in a row / column orientation. The sockets that consist of holes are known as
+                    a pin grid array or PGA. These types of sockets are typically associated with AMD type motherboards
+                    and processors. The pins are equipped on the bottom of the processor itself and placed within the
+                    socket by what is known as zero insertion force, which is uses a metal or plastic bar on the side of
+                    the socket that slides out like a plate. After you open this up, you would then place the CPU down
+                    on the plate, ensuring you have the correct alignment with the socket. Then, once the pins are
+                    placed within the socket, you would lock down the lever, securing a connection.
+                    Another common type of socket you may find is known as a land grid array or LGA. These type of
+                    sockets have pins placed on the motherboard and pads or lands that are attached to the CPU to make
+                    the connection. These types of sockets are associated with IntelPlacing any considerable amount of
+                    force on the CPU or socket, and you run the risk of damaging the components.
+                </p>
+                <p>
+                    LGA sockets are equipped with pins and the gold pads, or lands are placed on the chip. This is done
+                    for not only cost, but due to the locking lever, this also provides greater stability and better
+                    thermal transfer. This type of processor was introduced in 1997 with Intel's Pentium 2 and Celeron
+                    processor. The technology has improved for the processors throughout the years, along with the
+                    sockets to house them. Here are a few more modern processor and sockets:
+                </p>
+                <p>
+                    Since modern controller systems can operate by sending 64-bits over the data bus, there may be a
+                    bottleneck situation that occurs when a CPU and Memory can operated fast than that. The motherboard
+                    is then designed for single-, dual-, and triple-channel memory to alleviate this setback by using
+                    multiple channels. However, when using a triple-channel connection, each channel is reduced but
+                    still adding to a quicker performance than a dual channel. Some manufactures will added color coding
+                    to the channels to indicate which channel is required to be filled by a pair or trio of modules.
+                    These modules must the exact same pair, otherwise you run the risk of performance issues and / or
+                    failures. Consulting the manufacturer's mobo documentation, you can then figure out the maximum
+                    amount of memory you would need. Also, some memory comes with error checking and correction. In
+                    order for the memory to check for an error it uses what is called parity. Parity is by adding an
+                    additional bit of data (usually nothing that adds to the actual data) and checks against the data if
+                    see if its even or odd. Depending on which type of error checking is permitted (even or odd numbers
+                    of data), the outcoming is expected, otherwise an error is thrown. Also, say if the parity checking
+                    is expecting an even number and there are multiple errors, as long as it returns an expected
+                    outcome, no error is detected. This is a very base line way of checking as it adds no information on
+                    what the error is or how to corrected the error. This is where ECC comes in. ECC can detect two
+                    errors that exist within a byte and is able to actually offer corrections for one. This is done by
+                    adding a attaching a bit to the stored data. When the data is access, an algorithm is then performed
+                    and if a 0 is returned, otherwise it throws an error.
+                </p>
+                <p>
+                    LGA 1156 (Socket H), released in 2009, was not only the first of the i3, i5, and i7 series
+                    processors, but also the first time for integrated Northbridge chipset. This series also featured
+                    optional integrated graphics and a dual-channel memory controller.
+                </p>
+                <p>
+                    Now that the Northbridge is integrated with the processor, there's a direct connection with the
+                    Southbridge, which was changed to Platform Controller Hub (PCH). With the 1156 interface, with two
+                    PCIe x16 v2.0 supported, however the x16 rate is only for a single video card. If you were to add
+                    any additional video cards, the maximum throughput would only produce a x8 per slot. Also, the 1156
+                    had a DMI (Direct Media Interface) from the PCH to the processor. This allowed for a data transfer
+                    rate of 2 GB/s, which is basically the same rate as a PCIe x4 v2.0 connection. DDR3 dual-channel was
+                    integrated into the interface. You also have a FDI (Flexable Display Interface) which transferred
+                    the display data between the optional CPU integrated graphics and the PCH, which can support DVI,
+                    HDMI, etc.
+                </p>
+            </div>
+            <hr>
             <h3>Random Access Memory (RAM)</h3>
             <p>
                 Random Access Memory (RAM) are modules used to store the most recent information and preparation for the
