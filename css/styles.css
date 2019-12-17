@@ -93,6 +93,10 @@ a {
 }
 /************ PORTFOLIO ****************/
 
+.top_buff {
+    margin-top: 20%;
+}
+
 .projects {
     background-color: #EAEAEA;
     padding: 3% 2%;
