@@ -64,6 +64,17 @@ a {
     font-weight: normal;
 }
 
+/*********** BLOG **************/
+
+.card-text {
+    font-size: 16px;
+    margin: 30px, 50px, 30px, 50px !important;
+}
+
+.blog_img {
+    width: 28rem;
+}
+
 /*********** PROFILE ****************/
 
 .profile {
